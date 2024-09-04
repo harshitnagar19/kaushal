@@ -1429,7 +1429,7 @@
                           }), (0, i.jsx)("div", {
                               className: "flex p-4 pt-8",
                               children: (0, i.jsx)(P(), {
-                                  href: "https://unstop.com/hackathons/muj-hackx-20-manipal-university-mu-jaipur-1068307",
+                                  href: "https://forms.gle/EXaY1TBkDB2EHnpB6",
                                   target: "_blank",
                                   children: (0, i.jsx)("button", {
                                       className: "text-white px-4 py-2 rounded-xl font-bold bg-gradient-to-r ease-in-out  hover:animate-text from-violet-600 to-indigo-600",

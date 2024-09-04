@@ -730,12 +730,12 @@
                             },
                             children: (0, s.jsx)("div", {
                                 className: "md:text-4xl text-3xl lg:text-5xl",
-                                children: "Showdown starts in"
+                                children: "Registration closed in "
                             })
                         }), (0, s.jsx)("div", {
                             className: "",
                             children: (0, s.jsx)(n, {
-                                date: new Date("2024-09-05T00:00:00")
+                                date: new Date("2024-09-21T00:00:00")
                             })
                         })]
                     }), (0, s.jsxs)("div", {
@@ -758,7 +758,11 @@
                     }), (0, s.jsx)("div", {
                         className: "pt-8 flex justify-center items-center md:mx-6 mx-3",
                         children: (0, s.jsxs)("video", {
-                            className: "w-full  ",
+                            className: "w-full",
+                            style:{
+                                
+                                height:"500px"
+                            },
                             controls: !0,
                             muted: !0,
                             autoPlay: !0,
