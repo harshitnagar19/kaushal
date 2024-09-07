@@ -1,14 +1,14 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
     [405], {
-        5557: function(e, t, a) {
-            (window.__NEXT_P = window.__NEXT_P || []).push(["/", function() {
+        5557: function (e, t, a) {
+            (window.__NEXT_P = window.__NEXT_P || []).push(["/", function () {
                 return a(461)
             }])
         },
-        765: function(e, t, a) {
+        765: function (e, t, a) {
             "use strict";
             a.d(t, {
-                Z: function() {
+                Z: function () {
                     return m
                 }
             });
@@ -25,10 +25,10 @@
                 path: "/"
             }, {
                 name: "About",
-                path: "/about"
+                path: "/about.html"
             }, {
                 name: "Timeline",
-                path: "/timeline"
+                path: "/timeline.html"
             }, {
                 name: "Team",
                 path: "/team"
@@ -71,8 +71,7 @@
                             children: (0, s.jsx)(c(), {
                                 href: "/",
                                 children: (0, s.jsx)("img", {
-                                    src:"kaushallogo.png",
-  
+                                    src: "kaushallogo.png",
                                     width: 288,
                                     height: 64,
                                     alt: "",
@@ -90,7 +89,7 @@
                         }), (0, s.jsxs)("div", {
                             className: "flex items-center gap-6 mb-4 footer-list text-2xl",
                             children: [(0, s.jsx)(c(), {
-                                href: "https://jaipur.manipal.edu/",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -100,7 +99,7 @@
                                     })
                                 })
                             }), (0, s.jsx)(c(), {
-                                href: "https://www.instagram.com/muj.hackx/",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -110,7 +109,7 @@
                                     })
                                 })
                             }), (0, s.jsx)(c(), {
-                                href: "https://www.linkedin.com/company/mujhackx/",
+                                href: "https://www.linkedin.com/in/csi-svvv-indore-7449561b7/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -122,25 +121,25 @@
                             })]
                         }), (0, s.jsx)("p", {
                             className: "flex footer-list mb-4 text-center pt-8 gap-1",
-                            children: "\xa92024 MUJHackX, All rights reserved."
+                            children: "\xa92024 Kaushal, All rights reserved."
                         })]
                     })]
                 })
             }
         },
-        1368: function(e, t, a) {
+        1368: function (e, t, a) {
             "use strict";
             a.d(t, {
-                UQ: function() {
+                UQ: function () {
                     return x
                 },
-                vF: function() {
+                vF: function () {
                     return h
                 },
-                Qd: function() {
+                Qd: function () {
                     return m
                 },
-                o4: function() {
+                o4: function () {
                     return u
                 }
             });
@@ -222,10 +221,10 @@
             });
             h.displayName = r.VY.displayName
         },
-        461: function(e, t, a) {
+        461: function (e, t, a) {
             "use strict";
             a.r(t), a.d(t, {
-                default: function() {
+                default: function () {
                     return S
                 }
             });
@@ -233,36 +232,36 @@
             a(8192);
             var l = a(7294);
             let r = e => {
-                    let {
-                        value: t,
-                        heading: a
-                    } = e;
-                    return (0, s.jsxs)("div", {
-                        className: "flex flex-col   justify-center items-center ",
-                        children: [(0, s.jsxs)("div", {
-                            className: "flex flex-row  items-center w-[85px]  lg:w-[14rem] ",
-                            children: [(0, s.jsx)("div", {
-                                className: "lg:ml-4 ml-1 flex flex-col w-3/4 items-center justify-center bg-[#1c153b] border-y-2 border-[#363151] rounded-xl text-center",
-                                children: (0, s.jsx)("p", {
-                                    className: "font-medium text-[2rem] lg:text-[4rem] w-[40%]  text-white ",
-                                    children: Math.floor(t / 10)
-                                })
-                            }), (0, s.jsx)("div", {
-                                className: "lg:mx-4 mx-1 w-3/4  bg-[#1c153b] flex flex-col  items-center  text-center justify-center border-y-2 border-[#363151] rounded-xl ",
-                                children: (0, s.jsx)("p", {
-                                    className: "font-medium text-[2rem] lg:text-[4rem] w-[40%] text-white ",
-                                    children: t % 10
-                                })
-                            }), "Seconds" != a ? (0, s.jsx)("span", {
-                                className: "text-4xl ",
-                                children: ":"
-                            }) : (0, s.jsx)("span", {})]
-                        }), (0, s.jsx)("p", {
-                            className: "lg:text-xl py-2 text-lg font-medium text-white",
-                            children: a
-                        })]
-                    })
-                },
+                let {
+                    value: t,
+                    heading: a
+                } = e;
+                return (0, s.jsxs)("div", {
+                    className: "flex flex-col   justify-center items-center ",
+                    children: [(0, s.jsxs)("div", {
+                        className: "flex flex-row  items-center w-[85px]  lg:w-[14rem] ",
+                        children: [(0, s.jsx)("div", {
+                            className: "lg:ml-4 ml-1 flex flex-col w-3/4 items-center justify-center bg-[#1c153b] border-y-2 border-[#363151] rounded-xl text-center",
+                            children: (0, s.jsx)("p", {
+                                className: "font-medium text-[2rem] lg:text-[4rem] w-[40%]  text-white ",
+                                children: Math.floor(t / 10)
+                            })
+                        }), (0, s.jsx)("div", {
+                            className: "lg:mx-4 mx-1 w-3/4  bg-[#1c153b] flex flex-col  items-center  text-center justify-center border-y-2 border-[#363151] rounded-xl ",
+                            children: (0, s.jsx)("p", {
+                                className: "font-medium text-[2rem] lg:text-[4rem] w-[40%] text-white ",
+                                children: t % 10
+                            })
+                        }), "Seconds" != a ? (0, s.jsx)("span", {
+                            className: "text-4xl ",
+                            children: ":"
+                        }) : (0, s.jsx)("span", {})]
+                    }), (0, s.jsx)("p", {
+                        className: "lg:text-xl py-2 text-lg font-medium text-white",
+                        children: a
+                    })]
+                })
+            },
                 n = e => {
                     let {
                         date: t
@@ -299,37 +298,37 @@
                 m = a(512),
                 u = a(8388);
             let h = e => {
-                    let {
-                        animationSpeed: t = .4,
-                        opacities: a = [.3, .3, .3, .5, .5, .5, .8, .8, .8, 1],
-                        colors: l = [
-                            [0, 255, 255]
-                        ],
-                        containerClassName: r,
-                        dotSize: n,
-                        showGradient: i = !0
-                    } = e;
-                    return (0, s.jsxs)("div", {
-                        className: function() {
-                            for (var e = arguments.length, t = Array(e), a = 0; a < e; a++) t[a] = arguments[a];
-                            return (0, u.m6)((0, m.W)(t))
-                        }("h-full relative bg-white w-full ", r),
-                        children: [(0, s.jsx)("div", {
-                            className: "h-full w-full ",
-                            children: (0, s.jsx)(f, {
-                                colors: null != l ? l : [
-                                    [0, 255, 255]
-                                ],
-                                dotSize: null != n ? n : 3,
-                                opacities: null != a ? a : [.3, .3, .3, .5, .5, .5, .8, .8, .8, 1],
-                                shader: "\n              float animation_speed_factor = ".concat(t.toFixed(1), ";\n              float intro_offset = distance(u_resolution / 2.0 / u_total_size, st2) * 0.01 + (random(st2) * 0.15);\n              opacity *= step(intro_offset, u_time * animation_speed_factor);\n              opacity *= clamp((1.0 - step(intro_offset + 0.1, u_time * animation_speed_factor)) * 1.25, 1.0, 1.25);\n            "),
-                                center: ["x", "y"]
-                            })
-                        }), i && (0, s.jsx)("div", {
-                            className: "absolute inset-0 bg-gradient-to-t from-gray-950 to-[84%]"
-                        })]
-                    })
-                },
+                let {
+                    animationSpeed: t = .4,
+                    opacities: a = [.3, .3, .3, .5, .5, .5, .8, .8, .8, 1],
+                    colors: l = [
+                        [0, 255, 255]
+                    ],
+                    containerClassName: r,
+                    dotSize: n,
+                    showGradient: i = !0
+                } = e;
+                return (0, s.jsxs)("div", {
+                    className: function () {
+                        for (var e = arguments.length, t = Array(e), a = 0; a < e; a++) t[a] = arguments[a];
+                        return (0, u.m6)((0, m.W)(t))
+                    }("h-full relative bg-white w-full ", r),
+                    children: [(0, s.jsx)("div", {
+                        className: "h-full w-full ",
+                        children: (0, s.jsx)(f, {
+                            colors: null != l ? l : [
+                                [0, 255, 255]
+                            ],
+                            dotSize: null != n ? n : 3,
+                            opacities: null != a ? a : [.3, .3, .3, .5, .5, .5, .8, .8, .8, 1],
+                            shader: "\n              float animation_speed_factor = ".concat(t.toFixed(1), ";\n              float intro_offset = distance(u_resolution / 2.0 / u_total_size, st2) * 0.01 + (random(st2) * 0.15);\n              opacity *= step(intro_offset, u_time * animation_speed_factor);\n              opacity *= clamp((1.0 - step(intro_offset + 0.1, u_time * animation_speed_factor)) * 1.25, 1.0, 1.25);\n            "),
+                            center: ["x", "y"]
+                        })
+                    }), i && (0, s.jsx)("div", {
+                        className: "absolute inset-0 bg-gradient-to-t from-gray-950 to-[84%]"
+                    })]
+                })
+            },
                 f = e => {
                     let {
                         colors: t = [
@@ -388,51 +387,51 @@
                         l.value = a
                     });
                     let d = () => {
-                            let e = {};
-                            for (let t in a) {
-                                let s = a[t];
-                                switch (s.type) {
-                                    case "uniform1f":
-                                        e[t] = {
-                                            value: s.value,
-                                            type: "1f"
-                                        };
-                                        break;
-                                    case "uniform3f":
-                                        e[t] = {
-                                            value: new x.Vector3().fromArray(s.value),
-                                            type: "3f"
-                                        };
-                                        break;
-                                    case "uniform1fv":
-                                        e[t] = {
-                                            value: s.value,
-                                            type: "1fv"
-                                        };
-                                        break;
-                                    case "uniform3fv":
-                                        e[t] = {
-                                            value: s.value.map(e => new x.Vector3().fromArray(e)),
-                                            type: "3fv"
-                                        };
-                                        break;
-                                    case "uniform2f":
-                                        e[t] = {
-                                            value: new x.Vector2().fromArray(s.value),
-                                            type: "2f"
-                                        };
-                                        break;
-                                    default:
-                                        console.error("Invalid uniform type for '".concat(t, "'."))
-                                }
+                        let e = {};
+                        for (let t in a) {
+                            let s = a[t];
+                            switch (s.type) {
+                                case "uniform1f":
+                                    e[t] = {
+                                        value: s.value,
+                                        type: "1f"
+                                    };
+                                    break;
+                                case "uniform3f":
+                                    e[t] = {
+                                        value: new x.Vector3().fromArray(s.value),
+                                        type: "3f"
+                                    };
+                                    break;
+                                case "uniform1fv":
+                                    e[t] = {
+                                        value: s.value,
+                                        type: "1fv"
+                                    };
+                                    break;
+                                case "uniform3fv":
+                                    e[t] = {
+                                        value: s.value.map(e => new x.Vector3().fromArray(e)),
+                                        type: "3fv"
+                                    };
+                                    break;
+                                case "uniform2f":
+                                    e[t] = {
+                                        value: new x.Vector2().fromArray(s.value),
+                                        type: "2f"
+                                    };
+                                    break;
+                                default:
+                                    console.error("Invalid uniform type for '".concat(t, "'."))
                             }
-                            return e.u_time = {
-                                value: 0,
-                                type: "1f"
-                            }, e.u_resolution = {
-                                value: new x.Vector2(2 * n.width, 2 * n.height)
-                            }, e
-                        },
+                        }
+                        return e.u_time = {
+                            value: 0,
+                            type: "1f"
+                        }, e.u_resolution = {
+                            value: new x.Vector2(2 * n.width, 2 * n.height)
+                        }, e
+                    },
                         m = (0, l.useMemo)(() => {
                             let e = new x.ShaderMaterial({
                                 vertexShader: "\n      precision mediump float;\n      in vec2 coordinates;\n      uniform vec2 u_resolution;\n      out vec2 fragCoord;\n      void main(){\n        float x = position.x;\n        float y = position.y;\n        gl_Position = vec4(x, y, 0.0, 1.0);\n        fragCoord = (position.xy + vec2(1.0)) * 0.5 * u_resolution;\n        fragCoord.y = u_resolution.y - fragCoord.y;\n      }\n      ",
@@ -549,46 +548,46 @@
                 })
             }
             let w = e => {
-                    let {
-                        title: t,
-                        icon: a,
-                        children: r
-                    } = e, [n, i] = l.useState(!1);
-                    return (0, s.jsxs)("div", {
-                        onMouseEnter: () => i(!0),
-                        onMouseLeave: () => i(!1),
-                        className: "border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative",
-                        children: [(0, s.jsx)(y, {
-                            className: "absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black"
-                        }), (0, s.jsx)(y, {
-                            className: "absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black"
-                        }), (0, s.jsx)(y, {
-                            className: "absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black"
-                        }), (0, s.jsx)(y, {
-                            className: "absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black"
-                        }), (0, s.jsx)(j.M, {
-                            children: n && (0, s.jsx)(v.E.div, {
-                                initial: {
-                                    opacity: 0
-                                },
-                                animate: {
-                                    opacity: 1
-                                },
-                                className: "h-full w-full absolute inset-0",
-                                children: r
-                            })
-                        }), (0, s.jsxs)("div", {
-                            className: "relative z-20",
-                            children: [(0, s.jsx)("div", {
-                                className: "text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center",
-                                children: a
-                            }), (0, s.jsx)("h2", {
-                                className: "dark:text-white  text-center text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200",
-                                children: t
-                            })]
+                let {
+                    title: t,
+                    icon: a,
+                    children: r
+                } = e, [n, i] = l.useState(!1);
+                return (0, s.jsxs)("div", {
+                    onMouseEnter: () => i(!0),
+                    onMouseLeave: () => i(!1),
+                    className: "border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative",
+                    children: [(0, s.jsx)(y, {
+                        className: "absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black"
+                    }), (0, s.jsx)(y, {
+                        className: "absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black"
+                    }), (0, s.jsx)(y, {
+                        className: "absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black"
+                    }), (0, s.jsx)(y, {
+                        className: "absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black"
+                    }), (0, s.jsx)(j.M, {
+                        children: n && (0, s.jsx)(v.E.div, {
+                            initial: {
+                                opacity: 0
+                            },
+                            animate: {
+                                opacity: 1
+                            },
+                            className: "h-full w-full absolute inset-0",
+                            children: r
+                        })
+                    }), (0, s.jsxs)("div", {
+                        className: "relative z-20",
+                        children: [(0, s.jsx)("div", {
+                            className: "text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center",
+                            children: a
+                        }), (0, s.jsx)("h2", {
+                            className: "dark:text-white  text-center text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200",
+                            children: t
                         })]
-                    })
-                },
+                    })]
+                })
+            },
                 N = () => (0, s.jsx)("img", {
                     width: "150",
                     height: "165",
@@ -725,7 +724,7 @@
                             })
                         }), (0, s.jsx)("div", {
                             className: "text-center pb-7 ",
-                            style:{
+                            style: {
                                 paddingTop: "80px"
                             },
                             children: (0, s.jsx)("div", {
@@ -744,7 +743,7 @@
                             className: "pt-20"
                         }), (0, s.jsxs)("div", {
                             className: "lg:mx-10 mx-4 grid grid-cols-4 gap-3 sm:grid-cols-6 lg:grid-cols-7 xl:grid-cols-9",
-                            
+
                         })]
                     }), (0, s.jsx)("div", {
                         className: "pt-10 text-center ",
@@ -759,9 +758,9 @@
                         className: "pt-8 flex justify-center items-center md:mx-6 mx-3",
                         children: (0, s.jsxs)("video", {
                             className: "w-full",
-                            style:{
-                                
-                                height:"500px"
+                            style: {
+
+                                height: "500px"
                             },
                             controls: !0,
                             muted: !0,
@@ -781,55 +780,6 @@
                     }), (0, s.jsx)("div", {
                         className: "pt-12",
                         children: (0, s.jsx)(b, {})
-                    }), (0, s.jsxs)("div", {
-                        className: "text-[#c8d3ef] flex flex-col justify-center items-center",
-                        children: [(0, s.jsx)("div", {
-                            className: "pt-16 md:text-3xl lg:text-5xl sm:text-2xl text-xl ",
-                            children: "Previous Year Top Sponsors of Kaushal"
-                        }), (0, s.jsxs)("div", {
-                            className: "w-4/5  lg:w-3/5 xl:w-3/6 pt-6 grid grid-cols-4 gap-3 sm:grid-cols-5 lg:grid-cols-5 place-items-center",
-                            children: [(0, s.jsx)("img", {
-                                src: "/s1.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s2.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s3.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s4.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s5.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s6.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s7.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s8.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s9.png",
-                                alt: "circles",
-                                className: "w-full"
-                            }), (0, s.jsx)("img", {
-                                src: "/s10.png",
-                                alt: "circles",
-                                className: "w-full"
-                            })]
-                        })]
                     }), (0, s.jsx)("div", {
                         children: (0, s.jsxs)("div", {
                             className: "flex flex-col jusitfy-center items-center pt-10",
@@ -846,22 +796,25 @@
                                     content: "Click on the register now button on the nav menu of the website."
                                 }, {
                                     title: "How many team members do I need ?",
-                                    content: "You can participate individually or in teams of 2 to 4 members."
+                                    content: `You can participate individually . In web design contest there can be team of 2 member.
+                                   And in technical quiz there can be team of 4 member.
+                                    `
                                 }, {
                                     title: "How much are the participation fees?",
-                                    content: "Rs 699 for each participating team, be it 2 or 4 members."
+                                    content: `• 150/- per event (per person). For multiple events, submit separate forms.
+                                              • 100/- per person for team events (min team size: 2 & max team size : 4).`
                                 }, {
-                                    title: "Will the Hackathon be in person or online ?",
-                                    content: "MUJHackX 2.0 will be conducted in complete offline/in-person mode at Manipal University Jaipur"
+                                    title: "Will the event be in person or online ?",
+                                    content: "Kaushal 6.0 will be conducted in complete offline/in-person mode at Shri Vaishnav Vidyapeeth Vishwavidyalaya "
                                 }, {
-                                    title: "What is the venue for MUJHackX 2.0 ?",
-                                    content: "Manipal University Jaipur, Dahmi Kalan, Bagru P.O, Jaipur Ajmer Road 303007, Rajasthan, India"
+                                    title: "What is the venue for Kaushal 6.0 ?",
+                                    content: "Shri Vaishnav Vidyapeeth Vishwavidyalaya Campus : Indore – Ujjain Road, Indore – 453111 ,"
                                 }, {
-                                    title: "What are the prerequisites to participate in this hackathon ?",
-                                    content: "No prerequisites are required to participate in this hackathon. This event is open to participants of all skill levels."
+                                    title: "What are the prerequisites to participate in this event ?",
+                                    content: "No prerequisites are required to participate in this event. This event is open to participants of all skill levels."
                                 }, {
-                                    title: "Can my friend join our team after we have already submitted the application for review ?",
-                                    content: "Yes, your friend can join the team by submitting an individual application. Once both your friend's individual application and your team's application are accepted, you will be able to add your friend to the team."
+                                    title: "Is there pre Kaushal Activites before the event?",
+                                    content: `Yes ,We will be collaborating with variou cultural clubs of our college for a series of engaging pre-event activities.`
                                 }].map((e, t) => (0, s.jsx)(_.UQ, {
                                     type: "single",
                                     collapsible: !0,
@@ -883,13 +836,13 @@
                         children: (0, s.jsx)("div", {
                             className: "flex p-8  items-center justify-center",
                             children: (0, s.jsx)(c(), {
-                                href: "/about",
+                                href: "/about.html",
                                 children: (0, s.jsx)("button", {
                                     className: "text-white px-4 py-2 rounded-lg font-bold sm:text-lg lg:text-xl text-base bg-gradient-to-r ease-in-out hover:animate-text from-[#ae40c0] via-violet-600 to-indigo-600",
                                     style: {
                                         fontFamily: "Epilogue, sans-serif"
                                     },
-                                    children: "Explore more about MUJHackX 2.0"
+                                    children: "Explore more about Kaushal 6.0"
                                 })
                             })
                         })
@@ -899,8 +852,8 @@
             var S = C
         }
     },
-    function(e) {
-        e.O(0, [260, 409, 737, 788, 368, 774, 888, 179], function() {
+    function (e) {
+        e.O(0, [260, 409, 737, 788, 368, 774, 888, 179], function () {
             return e(e.s = 5557)
         }), _N_E = e.O()
     }

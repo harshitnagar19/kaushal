@@ -25,14 +25,11 @@
                 path: "/"
             }, {
                 name: "About",
-                path: "/about"
+                path: "/about.html"
             }, {
                 name: "Timeline",
-                path: "/timeline"
-            }, {
-                name: "Ambassador",
-                path: "/campus"
-            }, {
+                path: "/timeline.html"
+            },{
                 name: "Team",
                 path: "/team"
             }, {
@@ -73,8 +70,8 @@
                         }), (0, s.jsx)("div", {
                             children: (0, s.jsx)(n(), {
                                 href: "/",
-                                children: (0, s.jsx)(h(), {
-                                    src: "./Kaushallogo.jpg",
+                                children: (0, s.jsx)("img", {
+                                    src: "kaushallogo.png",
                                     width: 288,
                                     height: 64,
                                     alt: "",
@@ -93,7 +90,7 @@
                         }), (0, s.jsxs)("div", {
                             className: "flex items-center gap-6 mb-4 footer-list text-2xl",
                             children: [(0, s.jsx)(n(), {
-                                href: "https://jaipur.manipal.edu/",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -103,7 +100,7 @@
                                     })
                                 })
                             }), (0, s.jsx)(n(), {
-                                href: "https://www.instagram.com/muj.hackx/",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -113,7 +110,7 @@
                                     })
                                 })
                             }), (0, s.jsx)(n(), {
-                                href: "https://www.linkedin.com/company/mujhackx/",
+                                href: "https://www.linkedin.com/in/csi-svvv-indore-7449561b7/",
                                 legacyBehavior: !0,
                                 children: (0, s.jsx)("a", {
                                     target: "_blank",
@@ -125,7 +122,7 @@
                             })]
                         }), (0, s.jsx)("p", {
                             className: "flex footer-list mb-4 text-center pt-8 gap-1",
-                            children: "\xa92024 MUJHackX, All rights reserved."
+                            children: "\xa92024 Kaushal, All rights reserved."
                         })]
                     })]
                 })
@@ -213,136 +210,72 @@
                     })
                 })
             };
+            let harshit = A => {
+                let {
+                    icon: e,
+                    heading: t,
+                    description: i,
+                    link:k
+                } = A;
+                return (0, s.jsx)("div", {
+                    className: " w-full md:w-full my-6 md:my-8 mx-4",
+                    children: (0, s.jsxs)("div", {
+                        className: "flex  flex-col items-center justify-center",
+                        children: [(0, s.jsx)("div", {
+                            className: "flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full",
+                            children: (0, s.jsx)("img", {
+                                src: e,
+                                alt: "icon",
+                                className: "w-10 h-10 md:w-12 md:h-12"
+                            })
+                        }), (0, s.jsx)("div", {
+                            className: "text-xl md:text-2xl mt-4 text-slate-200 text-center",
+                            children: t
+                        }), (0, s.jsx)("div", {
+                            className: "text-xs md:text-base mt-4 text-slate-200 text-center",
+                            children: i
+                        }),(0, s.jsx)("a", {
+                            className: "text-xs md:text-base mt-4 text-slate-200 text-center",
+                            href:k,
+                            children:`visit more about csi on  ${k}`,
+                            target:"_blank"
+                        })]
+                    })
+                })
+            };
             var g = t(5675),
                 d = t.n(g),
-                o = {
-                    src: "/_next/static/media/img1.3bee5465.png",
-                    height: 1768,
-                    width: 1577,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAJ1BMVEVMaXGvRJekWGrpxyCvQZznvhKrQZlNtUnflB/25gjREiKfn1JFwEVEjOT0AAAADXRSTlMAIxFBMQo8JzAfXyhRzo1tLgAAAAlwSFlzAAAuIwAALiMBeKU/dgAAADBJREFUeJwlybcNADAMBLF7Bctp/3kNwRULkgASjjX43AogPcP6lo8Gztfu6KcKyR4PqQCJKLc25AAAAABJRU5ErkJggg==",
-                    blurWidth: 7,
-                    blurHeight: 8
-                },
-                m = {
-                    src: "/_next/static/media/img2.fafd7116.jpg",
-                    height: 144,
-                    width: 144,
-                    blurDataURL: "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAdEAACAgEFAAAAAAAAAAAAAAAAAwERBCExMlGh/8QAFQEBAQAAAAAAAAAAAAAAAAAABQb/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhEDEQA/ALqGsjN0UyFVXCd769sAEVqFX//Z",
-                    blurWidth: 8,
-                    blurHeight: 8
-                },
-                x = {
-                    src: "/_next/static/media/img9.154a4bd6.svg",
-                    height: 796,
-                    width: 2e3,
-                    blurWidth: 0,
-                    blurHeight: 0
-                },
-                w = {
-                    src: "/_next/static/media/img4.ed3ed5fe.png",
-                    height: 371,
-                    width: 672,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAG1BMVEX+/v74+fnr6+zByNDY3+Xh5Ofd4eSRrsjS19wRLcTTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVR4nBXIuREAQAjEMHvhnv4rZlAoSIMC9W5XgPOT7IgqAwSZADt7B5k3AAAAAElFTkSuQmCC",
-                    blurWidth: 8,
-                    blurHeight: 4
-                },
-                u = {
-                    src: "/_next/static/media/img5.2cf848a5.jpeg",
-                    height: 500,
-                    width: 500,
-                    blurDataURL: "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAbEAEAAAcAAAAAAAAAAAAAAAAAARETFCExYf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCvxusSo92AD//Z",
-                    blurWidth: 8,
-                    blurHeight: 8
-                },
-                f = {
-                    src: "/_next/static/media/img6.74db9b51.png",
-                    height: 590,
-                    width: 285,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAMAAADp7a43AAAAKlBMVEX/79/////9+vX8+vjv0rbpvo78+fb////58+roxqPPfQzMehDpx6f///+9Xs2AAAAADnRSTlMBN2dJcAt7MVlRO25SLMbUiyUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAoSURBVHicFcm3EQAgEASxvbfY/ttlUCpIgL1Awy5yS07ExKqclvSfBwovAHaLqtyCAAAAAElFTkSuQmCC",
-                    blurWidth: 4,
-                    blurHeight: 8
-                },
-                p = {
-                    src: "/_next/static/media/img7.431f44dc.png",
-                    height: 1800,
-                    width: 1800,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAANlBMVEXV8Wnj+Y/k9KS8xpTW82Lg/W3J0a/d+mzY9WjP6mjS44/G3mfAwbu+0m61trDK33mgqITF1oOICL4oAAAACXBIWXMAACE4AAAhOAFFljFgAAAAOklEQVR4nBXLSRLAIAwEsQaMZ0z2/382xVklJBxITKIWTPCTZzMU37h7FMjXm1t8jOwYVa0WJSTH7j80HwF/lVDyvQAAAABJRU5ErkJggg==",
-                    blurWidth: 8,
-                    blurHeight: 8
-                },
-                E = {
-                    src: "/_next/static/media/img8.3386f9d8.jpg",
-                    height: 300,
-                    width: 300,
-                    blurDataURL: "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAABAwQDAAAAAAAAAAAAAAAAAxITARUxMmFxkf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAMAwEAAhEDEQA/AKg5W55Ujl1dX3rgACuwGX//2Q==",
-                    blurWidth: 8,
-                    blurHeight: 8
-                },
-                j = {
-                    src: "/_next/static/media/img3.79482b44.png",
-                    height: 5658,
-                    width: 24824,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAGFBMVEU7wOW10um21OgTueMA//81vuQAsuWu0/BPwfFPAAAACHRSTlM8O0R4AUMeIy7MHB4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAaSURBVHicY2BmZGRkYmJnYWBmYGBlYGBlAwABWgApIOYxfgAAAABJRU5ErkJggg==",
-                    blurWidth: 8,
-                    blurHeight: 2
-                },
-                b = {
-                    src: "/_next/static/media/img10.609e240d.png",
-                    height: 1080,
-                    width: 1920,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAFVBMVEUAMZUAMZcAMpcAM5dMaXEAMZcAMpaHfOTBAAAAB3RSTlM9I5MuAHWn0VlnZwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACZJREFUeJxjYIECBgZGZgYGRgZmBlYmNiY2JiZWBgZGRmawCEwNAAneAHAl8eqlAAAAAElFTkSuQmCC",
-                    blurWidth: 8,
-                    blurHeight: 5
-                },
-                B = {
-                    src: "/_next/static/media/img11.5730cb7b.png",
-                    height: 676,
-                    width: 1080,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAElBMVEX////3+/zc8PDX4/DE6Orq8PdwN2cSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAGklEQVR4nGNggANGMGBgYGBlZmZiYUJIwAEAApwAGnuOKeIAAAAASUVORK5CYII=",
-                    blurWidth: 8,
-                    blurHeight: 5
-                },
-                O = {
-                    src: "/_next/static/media/img12.5de0fb81.png",
-                    height: 280,
-                    width: 280,
-                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAMFBMVEUMKkYHKEYHJUVMaXE0PUMKKkYIKUcHKkUiNEQJK0cIK0i/iTYKKUMFKElFQkN5Xj5HBgDhAAAADXRSTlP56y4A/a8qsPytsP0x/yqREAAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUeJwVykESgCAMBMHZJCCoS/7/W8s+NzkHXDMJ2aDgNj7LG2xXWeDTfSyG62m8/7zKesnY0oj8ADx+AbdT6TvSAAAAAElFTkSuQmCC",
-                    blurWidth: 8,
-                    blurHeight: 8
-                },
-                N = {
-                    src: "/_next/static/media/img13.9f3bd17e.jpg",
-                    height: 1080,
-                    width: 1920,
-                    blurDataURL: "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIDBBESIf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKtGvcX2rYyWm+VLfiAALdf/2Q==",
-                    blurWidth: 8,
-                    blurHeight: 5
-                },
                 z = t(765);
+            let CSI = [{
+                icon: "/CSIlogo.jpeg",
+                heading: "COMPUTER SOCIETY OF INDIA , SVVV ,INDORE",
+                description: "The Computer Society of India (CSI) is the oldest and largest organization of IT and allied professionals in India. As a non-profit professional society, CSI is dedicated to computing, facilitating the exchange of views and information, and fostering learning and idea-sharing. CSI Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV) connects you with the broader CSI community, providing you with opportunities to engage with recent technological advancements and innovations. Through CSI-SVVV, you can stay informed about the latest developments in IT and enhance your skills in the ever-evolving field of technology.",
+                link:"https://csi-dusky.vercel.app/"
+            }]
             let C = [{
                     icon: "/img1.svg",
-                    heading: "Collaborate and skill up",
-                    description: "Connect with people, form a team, learn new skills and develop amazing projects!"
+                    heading: "Boost Your Resume",
+                    description: "Earn certificates and recognition that make you stand out !"
                 }, {
                     icon: "/img2.svg",
                     heading: "Win exciting prizes",
-                    description: "Top 3 teams plus best projects of each domain will win prizes which will be disclosed soon!"
+                    description: "Cash rewards, gadgets, and tech goodies await the top performers.!"
                 }, {
                     icon: "/img3.svg",
-                    heading: "Engaging Workshops",
-                    description: "Technical workshops and events like no-light event will keep the participants engaged throughout."
+                    heading: "Hands-on Workshops",
+                    description: "Access exclusive workshops and cutting-edge tech demos."
                 }, {
                     icon: "/img4.svg",
-                    heading: "Mentorship sessions",
-                    description: "Get mentorship and guidance from prominent technocrats of the industry."
+                    heading: "Career Opportunities",
+                    description: "Network with industry experts and grab potential internships or job offers."
                 }, {
                     icon: "/img5.svg",
-                    heading: "Recruitment offers",
-                    description: "Best performers will get recruitment offers from prestigious companies."
+                    heading: "entertainment and refreshment to participent",
+                    description: "you will get your best experience , and you can take benefit of different games and food coupens."
                 }, {
                     icon: "/img6.svg",
-                    heading: "Expand network",
-                    description: "Connect with industry professionals and recruiters and other teams to learn and grow more."
+                    heading: "Skill Development",
+                    description: "Enhance your technical skills, creativity, and teamwork abilities."
                 }],
                 v = () => {
                     let [A, e] = (0, i.useState)(0);
@@ -354,7 +287,7 @@
                                 className: "w-full md:w-auto flex flex-col items-center",
                                 children: [(0, s.jsx)("div", {
                                     className: "text-4xl md:text-6xl text-center font-bold bg-gradient-to-r ease-in-out via-purple-500 bg-clip-text text-transparent from-indigo-300 to-indigo-300 animate-text",
-                                    children: "WHY PARTICIPATE IN HACKX?"
+                                    children: "WHY PARTICIPATE IN KAUSHAL ?"
                                 }), (0, s.jsx)("div", {
                                     className: "flex  justify-center flex-wrap mt-12 items-center w-[90%] md:w-[85%] bg-gradient-to-r from-[#9d00ff1f] to-[#5600ff4d] rounded-2xl pt-4 md:pt-0",
                                     children: C.map((A, e) => (0, s.jsx)(h, {
@@ -373,7 +306,7 @@
                                     children: [(0, s.jsxs)("div", {
                                         className: "flex flex-col flex-grow items-center",
                                         children: [(0, s.jsx)(c, {
-                                            targetValue: 30
+                                            targetValue: 8
                                         }), (0, s.jsx)("div", {
                                             className: "md:text-3xl text-center text-slate-200",
                                             children: "Universities"
@@ -381,7 +314,7 @@
                                     }), (0, s.jsxs)("div", {
                                         className: "flex flex-col flex-grow items-center",
                                         children: [(0, s.jsx)(c, {
-                                            targetValue: 1e3
+                                            targetValue: 560
                                         }), (0, s.jsx)("div", {
                                             className: "md:text-3xl text-center text-slate-200",
                                             children: "Participants"
@@ -389,151 +322,27 @@
                                     }), (0, s.jsxs)("div", {
                                         className: "flex flex-col flex-grow items-center",
                                         children: [(0, s.jsx)(c, {
-                                            targetValue: 850
+                                            targetValue: 50
                                         }), (0, s.jsx)("div", {
                                             className: "md:text-3xl text-center text-slate-200",
                                             children: "Projects"
                                         })]
                                     })]
                                 })]
-                            }), (0, s.jsxs)("div", {
+                            }),(0, s.jsxs)("div", {
                                 className: "w-full md:w-auto flex flex-col items-center mt-32",
                                 children: [(0, s.jsx)("div", {
                                     className: "text-4xl md:text-6xl text-center font-bold bg-gradient-to-r ease-in-out via-purple-500 bg-clip-text text-transparent from-indigo-300 to-indigo-300 animate-text",
-                                    children: "PAST PARTNERS & SPONSORS"
-                                }), (0, s.jsxs)("div", {
-                                    className: "flex flex-row flex-wrap mt-12 items-center w-[90%] md:w-[60%] rounded-2xl justify-center",
-                                    children: [(0, s.jsx)(d(), {
-                                        src: o,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: m,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: x,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: w,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: u,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: f,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: p,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: E,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: j,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: b,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: B,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: O,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    }), (0, s.jsx)(d(), {
-                                        src: N,
-                                        alt: "sponsor",
-                                        className: "m-4",
-                                        width: 0,
-                                        height: 0,
-                                        style: {
-                                            height: "8rem",
-                                            width: "auto"
-                                        }
-                                    })]
+                                    children: "KAUSHAL IS PRESENT BY -"
+                                }), (0, s.jsx)("div", {
+                                    className: "flex  justify-center flex-wrap mt-12 items-center w-[90%] md:w-[85%] bg-gradient-to-r from-[#9d00ff1f] to-[#5600ff4d] rounded-2xl pt-4 md:pt-0",
+                                    children:(0, s.jsx)(harshit, {
+                                        icon: CSI[0].icon,
+                                        heading: CSI[0].heading,
+                                        description: CSI[0].description,
+                                        link:CSI[0].link
+                                    }, e),
+                                    
                                 })]
                             })]
                         }), (0, s.jsx)(z.Z, {})]

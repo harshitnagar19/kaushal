@@ -93,7 +93,7 @@
                         }), (0, n.jsxs)("div", {
                             className: "flex items-center gap-6 mb-4 footer-list text-2xl",
                             children: [(0, n.jsx)(o(), {
-                                href: "https://jaipur.manipal.edu/",
+                                href: "",
                                 legacyBehavior: !0,
                                 children: (0, n.jsx)("a", {
                                     target: "_blank",
@@ -103,7 +103,7 @@
                                     })
                                 })
                             }), (0, n.jsx)(o(), {
-                                href: "https://www.instagram.com/muj.hackx/",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, n.jsx)("a", {
                                     target: "_blank",
@@ -113,7 +113,7 @@
                                     })
                                 })
                             }), (0, n.jsx)(o(), {
-                                href: "https://www.linkedin.com/company/mujhackx/",
+                                href: "https://www.linkedin.com/in/csi-svvv-indore-7449561b7/",
                                 legacyBehavior: !0,
                                 children: (0, n.jsx)("a", {
                                     target: "_blank",
@@ -125,7 +125,7 @@
                             })]
                         }), (0, n.jsx)("p", {
                             className: "flex footer-list mb-4 text-center pt-8 gap-1",
-                            children: "\xa92024 MUJHackX, All rights reserved."
+                            children: "\xa92024 Kaushal, All rights reserved."
                         })]
                     })]
                 })

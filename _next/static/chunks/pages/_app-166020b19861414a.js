@@ -1206,7 +1206,7 @@
                   }, {})
               }, {
                   name: "About",
-                  path: "/about",
+                  path: "/about.html",
                   icon: (0, i.jsx)(function(t) {
                       return (0, g.w_)({
                           tag: "svg",
@@ -1227,7 +1227,7 @@
                   }, {})
               }, {
                   name: "Timeline",
-                  path: "/timeline",
+                  path: "/timeline.html",
                   icon: (0, i.jsx)(function(t) {
                       return (0, g.w_)({
                           tag: "svg",
