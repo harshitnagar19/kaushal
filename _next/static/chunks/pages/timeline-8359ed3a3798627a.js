@@ -478,7 +478,7 @@
                 path: "/timeline.html"
             },{
                 name: "Team",
-                path: "/team"
+                path: "/team.html"
             }, {
                 name: "Gallery",
                 path: "/gallery"
@@ -820,19 +820,19 @@
                             bottomLine: !0
                         }, {
                             direction: "left",
-                            heading1: "Sept 24 2024 , 10:00AM-12-00pm",
+                            heading1: "Sept 24 2024 , 10:00am-12-00pm",
                             heading2: "Programing Contest(round 1)",
                             heading3: "DAY-1",
                             progress: 2 / 7,
                             label: "2/7",
-                            image: f,
+                            image: f, 
                             topLine: !0,
                             bottomLine: !0
                         }, {
                             direction: "right",
-                            heading1: "September 5 2024 12:00",
-                            heading2: "Round 1",
-                            heading3: "Participants work on initial hacking projects.",
+                            heading1: "Sept 24 2024 , 12:00pm-2pm",
+                            heading2: "Project Presentation",
+                            heading3: "Day 1.",
                             progress: 3 / 7,
                             label: "3/7",
                             image: A,
@@ -840,9 +840,9 @@
                             bottomLine: !0
                         }, {
                             direction: "left",
-                            heading1: "September 6 2024 05:00",
-                            heading2: "Round 1 Results",
-                            heading3: "Announce round 1 winners and achievements.",
+                            heading1: "Sept 24 2024 , 01:00pm-3:00pm",
+                            heading2: "Web Development",
+                            heading3: "Day 1.",
                             progress: 4 / 7,
                             label: "4/7",
                             image: g,
@@ -850,9 +850,9 @@
                             bottomLine: !0
                         }, {
                             direction: "right",
-                            heading1: "September 6 2024 08:00",
-                            heading2: "Round 2",
-                            heading3: "Participants advance to the next hacking phase.",
+                            heading1: "Sept 24 2024 , 1:00pm-4:00pm",
+                            heading2: "Technical Quiz",
+                            heading3: "Day 1.",
                             progress: 5 / 7,
                             label: "5/7",
                             image: p,
@@ -860,9 +860,9 @@
                             bottomLine: !0
                         }, {
                             direction: "left",
-                            heading1: "September 6 2024 13:00",
-                            heading2: "Presentation",
-                            heading3: "Teams present their projects and innovations.",
+                            heading1: "Sept 25 2024 , 9:00am-11-00am",
+                            heading2: "Research",
+                            heading3: "Day 2.",
                             progress: 6 / 7,
                             label: "6/7",
                             image: h,
@@ -870,9 +870,20 @@
                             bottomLine: !0
                         }, {
                             direction: "right",
-                            heading1: "September 6 2024 18:00",
-                            heading2: "Result Declared",
-                            heading3: "Announce final winners and award prizes.",
+                            heading1: "Sept 25  2024 , 11:00am-1:00pm programing (round-2)",
+                            heading2: "Sept 25  2024 , 12:00pm-2:00pm Manas club activity",
+                            heading3: "Day 2.",
+                            progress: 1,
+                            label: "7/7",
+                            image: b,
+                            topLine: !0,
+                            bottomLine: !1
+                        },
+                        {
+                            direction: "left",
+                            heading1: "Sept 25  2024 , 1:00am-3:00pm Technical Quiz (round-2)",
+                            heading2: "::::=>Sept 25  2024 , 2:15pm-2:30pm Riyaz club activity. :::=>Sept 25  2024 , 2:30pm-2:45pm Natraj club activity",
+                            heading3: "day 2",
                             progress: 1,
                             label: "7/7",
                             image: b,

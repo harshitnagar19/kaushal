@@ -24,7 +24,7 @@
                     className: "flex flex-col items-center w-full md:w-[".concat((100 / m).toFixed(0), "%]"),
                     children: [(0, i.jsx)("div", {
                         className: "transition duration-300 transform rounded-lg shadow-2xl hover:scale-105 hover:shadow-3xl",
-                        children: (0, i.jsx)(s(), {
+                        children: (0, i.jsx)("img", {
                             className: "object-cover rounded-lg",
                             src: a,
                             width: 250,
@@ -80,22 +80,19 @@
                 path: "/"
             }, {
                 name: "About",
-                path: "/about"
+                path: "/about.html"
             }, {
                 name: "Timeline",
                 path: "/timeline.html"
             }, {
-                name: "Ambassador",
-                path: "/campus"
-            }, {
                 name: "Team",
-                path: "/team"
+                path: "/team.html"
             }, {
                 name: "Gallery",
-                path: "/gallery"
+                path: "/gallery.html"
             }, {
                 name: "Faqs",
-                path: "/contact"
+                path: "/contact.html"
             }];
 
             function c() {
@@ -128,7 +125,7 @@
                         }), (0, i.jsx)("div", {
                             children: (0, i.jsx)(m(), {
                                 href: "/",
-                                children: (0, i.jsx)(p(), {
+                                children: (0, i.jsx)("img", {
                                     src: "kaushallogo.png",
                                     width: 288,
                                     height: 64,
@@ -188,22 +185,22 @@
         },
         7441: function(e, n) {
             "use strict";
-            n.Z = [{
-                personImage: "/SVaitheeswaran.jpg",
-                personName: "Mr. S. Vaitheeswaran",
-                personPosition: "CHIEF PATRON",
-                personOrganization: "CHAIRPERSON, MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/NNSharma.png",
-                personName: "Dr. N N Sharma",
-                personPosition: "PATRON",
-                personOrganization: "PRESIDENT, MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/arunabha-mukhopadhyay/"
+            n.Z = [ {
+                personImage: "",
+                personName: "Pratham Rathor",
+                personPosition: "CORE MEMBER",
+                personOrganization: "TECHNICAL HEAD",
+                personLinkedIn: "https://www.linkedin.com/in/pratham-rathore-32074a250/"
+            },{
+                personImage: "/_next/harshitnagar.jpg",
+                personName: "Harshit Nagar",
+                personPosition: "MEMBER",
+                personOrganization: "DEVELOPER",
+                personLinkedIn: "https://www.linkedin.com/in/harshit-nagar-7aa701251/"
             }, {
                 personImage: "/Jawarjangir.jpg",
-                personName: "Dr. Jawar N Jangir",
-                personPosition: "CO PATRON",
+                personName: "Sohil",
+                personPosition: "CORE MEMBER",
                 personOrganization: "PRO PRESIDENT, MUJ",
                 personLinkedIn: "https://www.linkedin.com/in/arunabha-mukhopadhyay/"
             }, {
@@ -308,8 +305,8 @@
                 o = a(765);
             let m = () => {
                 let [e, n] = (0, r.useState)(2024), a = {
-                    "Mr. S. Vaitheeswaran": "https://www.linkedin.com/in/vaitheeswaran/",
-                    "Dr. N N Sharma": "https://www.linkedin.com/in/sharma-nn-7988182/",
+                    "Harshit Nagar": "",
+                    "Pratham Rathor": "",
                     "Dr. Nitu Bhatnagar": "https://www.linkedin.com/in/nitu-bhatnagar-496980172/",
                     "Dr. Thammaiah CS": "https://www.linkedin.com/in/dr-thammaiah-chekkera-6014184/",
                     "Dr. Jawar N Jangir": "https://www.linkedin.com/in/commodore-dr-jawaharjangir/",
@@ -339,7 +336,7 @@
                 }, m = e => e.map(e => ({
                     ...e,
                     icon: a[e.personName] || ""
-                })), l = m(s.Z.filter(e => "CHIEF PATRON" === e.personPosition))[0], p = m(s.Z.filter(e => "PATRON" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)), c = m(h.map(e => "Dr. Thammaiah CS" === e.personName ? {
+                })), l = m(s.Z.filter(e => "CORE MEMBER" === e.personPosition))[0], p = m(s.Z.filter(e => "MEMBER" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)), c = m(h.map(e => "Dr. Thammaiah CS" === e.personName ? {
                     ...e,
                     personName: "Dr. Jawar N Jangir",
                     personImage: "/JawarJangir.jpg"
@@ -399,47 +396,51 @@
                     personImage: "/image 1.png",
                     personName: "Abhijeet Anand Jha"
                 }]);
+                console.log(l)
                 return (0, i.jsx)("div", {
                     className: "bg-primary flex items-center justify-center  relative z-10",
                     children: (0, i.jsxs)("div", {
                         className: "w-full md:w-[80%]",
                         children: [(0, i.jsx)("h2", {
                             className: "h2 text-center mb-12 text-accent pt-[20vh] font-bold bg-gradient-to-r ease-in-out via-purple-500 bg-clip-text text-transparent from-indigo-300 to-indigo-300 animate-text",
-                            children: 2023 === e ? "Team HackX 2023" : "Team HackX 2024"
+                            children: "Team Kaushal 2024"
                         }), (0, i.jsxs)("div", {
-                            className: "flex items-center w-[70%] md:w-[50%] text-xl h-16 mt-8 md:mt-16 mx-auto",
+                            className: "flex justify-center items-center w-[70%] md:w-[50%] text-xl h-16 mt-8 md:mt-16 mx-auto",
                             children: [(0, i.jsx)("button", {
                                 className: "w-[50%] m-4 md:m-0 p-4 rounded ".concat(2024 === e ? "bg-gradient-to-r from-cyan-500 to-purple-500" : ""),
                                 onClick: () => n(2024),
                                 children: "2024"
-                            }), (0, i.jsx)("button", {
-                                className: "w-[50%] m-4 md:m-0 p-4 rounded ".concat(2023 === e ? "bg-gradient-to-r from-cyan-500 to-purple-500" : ""),
-                                onClick: () => n(2023),
-                                children: "2023"
                             })]
                         }), (0, i.jsxs)("div", {
                             className: "flex flex-col align-middle bg-primary",
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl text-white font-bold my-4",
-                                children: "Patron"
+                                children: "Developers"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsxs)("div", {
                                 className: "flex flex-col md:flex-row justify-center items-center",
                                 children: [(0, i.jsx)(t.Z, {
-                                    name: l.personName,
-                                    image: l.personImage,
-                                    line1: l.personPosition,
-                                    line2: l.personOrganization,
+                                    name: "Pratham Pathor",
+                                    image: "/_next/prathamrathor.jpg",
+                                    line1: "TECHNICAL HEAD",
+                                    line2: "CORE MEMBER",
                                     count: 2,
-                                    icon: l.icon
+                                    icon: "https://www.linkedin.com/in/pratham-rathore-32074a250/"
+                                }),(0, i.jsx)(t.Z, {
+                                    name: "Sohel Shaikh",
+                                    image:"/_next/sohelshaikh.png",
+                                    line1: "VICE PRESIDENT",
+                                    line2: "CORE MEMBER",
+                                    count: 2,
+                                    icon: "https://www.linkedin.com/in/sohelxshaikh/"
                                 }), (0, i.jsx)(t.Z, {
-                                    name: p.personName,
-                                    image: p.personImage,
-                                    line1: p.personPosition,
-                                    line2: p.personOrganization,
+                                    name: "Harshit Nagar",
+                                    image: "/_next/harshitnagar.jpg",
+                                    line1: "TECHNICAL MEMBER",
+                                    line2: "MEMBER",
                                     count: 2,
-                                    icon: p.icon
+                                    icon: "https://www.linkedin.com/in/harshit-nagar-7aa701251/"
                                 })]
                             })]
                         }), (0, i.jsx)("h2", {

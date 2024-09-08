@@ -25,16 +25,13 @@
                 path: "/"
             }, {
                 name: "About",
-                path: "/about"
+                path: "/about.html"
             }, {
                 name: "Timeline",
                 path: "/timeline.html"
             }, {
-                name: "Ambassador",
-                path: "/campus"
-            }, {
                 name: "Team",
-                path: "/team"
+                path: "/team.html"
             }, {
                 name: "Gallery",
                 path: "/gallery"

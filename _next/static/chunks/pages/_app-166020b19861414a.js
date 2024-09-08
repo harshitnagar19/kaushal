@@ -1250,7 +1250,7 @@
                   }, {})
               },{
                   name: "Team",
-                  path: "/team",
+                  path: "/team.html",
                   icon: (0, i.jsx)(v, {})
               }, {
                   name: "Gallery",

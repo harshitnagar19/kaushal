@@ -31,7 +31,7 @@
                 path: "/timeline.html"
             }, {
                 name: "Team",
-                path: "/team"
+                path: "/team.html"
             }, {
                 name: "Gallery",
                 path: "/gallery"
