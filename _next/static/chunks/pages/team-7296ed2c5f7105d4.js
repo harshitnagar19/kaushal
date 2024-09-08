@@ -185,115 +185,7 @@
         },
         7441: function(e, n) {
             "use strict";
-            n.Z = [ {
-                personImage: "",
-                personName: "Pratham Rathor",
-                personPosition: "CORE MEMBER",
-                personOrganization: "TECHNICAL HEAD",
-                personLinkedIn: "https://www.linkedin.com/in/pratham-rathore-32074a250/"
-            },{
-                personImage: "/_next/harshitnagar.jpg",
-                personName: "Harshit Nagar",
-                personPosition: "MEMBER",
-                personOrganization: "DEVELOPER",
-                personLinkedIn: "https://www.linkedin.com/in/harshit-nagar-7aa701251/"
-            }, {
-                personImage: "/Jawarjangir.jpg",
-                personName: "Sohil",
-                personPosition: "CORE MEMBER",
-                personOrganization: "PRO PRESIDENT, MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/arunabha-mukhopadhyay/"
-            }, {
-                personImage: "/ThammaiahCS.jpg",
-                personName: "Dr. Thammaiah CS",
-                personPosition: "CO-PATRON",
-                personOrganization: "PRO PRESIDENT, MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/dev-agrawal28/"
-            }, {
-                personImage: "/NeetuBhatnagar.jpg",
-                personName: "Dr. Nitu Bhatnagar",
-                personPosition: "CO-PATRON",
-                personOrganization: "REGISTRAR, MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/vikramadityahiran/"
-            }, {
-                personImage: "/ArunShanbhag.jpg",
-                personName: "Dr. Arun Shanbhag",
-                personPosition: "CO-PATRON",
-                personOrganization: "DEAN FOE,MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/SandeepChaurasia.webp",
-                personName: "Dr. Sandeep Chaurasia",
-                personPosition: "GENERAL CHAIR",
-                personOrganization: "DIRECTOR SCSE,MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/AmitSoni.jpg",
-                personName: "Dr. Amit Soni",
-                personPosition: "CEO AIC",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/AmitSoni.jpg",
-                personName: "Dr.Amit Soni",
-                personPosition: "DEAN FOE,MUJ",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/SandeepJoshi.jpg",
-                personName: "Dr. Sandeep Joshi",
-                personPosition: "CEO AIC",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/DineshSaini.jpg",
-                personName: "Dr. Dinesh Saini",
-                personPosition: "DIRECTOR, ECELL",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/NehaChaudhary.jpg",
-                personName: "Dr. Neha Chaudhary",
-                personPosition: "PROGRAM CHAIR",
-                personOrganization: "HOD CSE,MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/SantoshKumarVishwakarma.jpg",
-                personName: "Dr. Santosh Kumar Vishwakarma",
-                personPosition: "PROGRAM CHAIR",
-                personOrganization: "HOD AI-ML,MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/JuhiSingh.jpg",
-                personName: "Dr. Juhi Singh",
-                personPosition: "Convener",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/ShishirSinghChauhan.jpg",
-                personName: "Mr. Shishir Singh",
-                personPosition: "Convener",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/SamvrantSamantaray.png",
-                personName: "Samvrant Samantaray",
-                personPosition: "Advisor",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/Manya.jpg",
-                personName: "Manya Goel",
-                personPosition: "Advisor",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }, {
-                personImage: "/AeshnaKala.png",
-                personName: "Aeshna Kala",
-                personPosition: "Advisor",
-                personOrganization: "MUJ",
-                personLinkedIn: "https://www.linkedin.com/in/pujan-modha/"
-            }]
+            n.Z = []
         },
         1303: function(e, n, a) {
             "use strict";
@@ -305,98 +197,17 @@
                 o = a(765);
             let m = () => {
                 let [e, n] = (0, r.useState)(2024), a = {
-                    "Harshit Nagar": "",
-                    "Pratham Rathor": "",
-                    "Dr. Nitu Bhatnagar": "https://www.linkedin.com/in/nitu-bhatnagar-496980172/",
-                    "Dr. Thammaiah CS": "https://www.linkedin.com/in/dr-thammaiah-chekkera-6014184/",
-                    "Dr. Jawar N Jangir": "https://www.linkedin.com/in/commodore-dr-jawaharjangir/",
-                    "Dr. Arun Shanbhag": "https://www.linkedin.com/in/arunshanbhag/",
-                    "Dr. Amit Soni": "https://www.linkedin.com/in/dr-amit-soni-9b810812/",
-                    "Dr. Sandeep Chaurasia": "https://www.linkedin.com/in/sandeep-chaurasia-0457568a/",
-                    "Dr. Sandeep Joshi": "https://www.linkedin.com/in/dr-sandeep-joshi-7319a138/",
-                    "Dr. Dinesh Saini": "https://www.linkedin.com/in/dinesh-saini-4354028/",
-                    "Dr. Neha Chaudhary": "https://www.linkedin.com/in/dr-neha-chaudhary-2b02bb31/",
-                    "Dr. Santosh Kumar Vishwakarma": "https://www.linkedin.com/in/santosh-kumar-vishwakarma-68005a66/",
-                    "Dr. Juhi Singh": "https://www.linkedin.com/in/dr-juhi-singh-171a4873/",
-                    "Mr. Shishir Singh": "https://www.linkedin.com/in/shishir-chauhan-b888b2129/",
-                    Preet: "https://www.linkedin.com/in/preet-kalani/",
-                    "Dev Shalinkumar Agrawal": "https://www.linkedin.com/in/dev-agrawal28/",
-                    "Ayush Poddar": "https://www.linkedin.com/in/ayush-poddar-324909245/",
-                    "Aneerban Saha": "https://www.linkedin.com/in/aneerban-saha/",
-                    "Lakshya Goel": "https://www.linkedin.com/in/ilakshya1/",
-                    "Manya Goel": "https://www.linkedin.com/in/manya-goel-8a6335222/",
-                    "Naad Dantale": "https://www.linkedin.com/in/naad/",
-                    "Rishi Joshi": "https://www.linkedin.com/in/rishijoshi1410/",
-                    "Srishti Krishna": "https://www.linkedin.com/in/shristikrishna/",
-                    "Pulkit Gupta": "https://www.linkedin.com/in/pulkit-gupta-abb638249/",
-                    "Roshmeet Chakraborty": "https://www.linkedin.com/in/roshmeet/",
-                    "Abhijeet Anand Jha": "https://www.linkedin.com/in/abhijeet-anand-jha-b517b7249/",
-                    "Samvrant Samantaray": "https://www.linkedin.com/in/samvrant-samanataray/",
-                    "Aeshna Kala": "https://www.linkedin.com/in/aeshna-kala-929191233/"
+                    
                 }, m = e => e.map(e => ({
                     ...e,
                     icon: a[e.personName] || ""
-                })), l = m(s.Z.filter(e => "CORE MEMBER" === e.personPosition))[0], p = m(s.Z.filter(e => "MEMBER" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)), c = m(h.map(e => "Dr. Thammaiah CS" === e.personName ? {
+                })), l = m(s.Z.filter(e => "CORE MEMBER" === e.personPosition))[0], p = m(s.Z.filter(e => "MEMBER" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)),c = m(h.map(e => "" === e.personName ? {
                     ...e,
-                    personName: "Dr. Jawar N Jangir",
-                    personImage: "/JawarJangir.jpg"
-                } : "Dr. Arun Shanbhag" === e.personName ? {
+        
+                } : "" === e.personName ? {
                     ...e,
-                    personName: "Dr. Amit Soni",
-                    personImage: "/AmitSoni.jpg"
-                } : e)), d = m(s.Z.filter(e => "Dr. Sandeep Chaurasia" === e.personName || "Dr. Amit Soni" === e.personName || "Dr. Dinesh Saini" === e.personName)), g = m([{
-                    personName: "Dr. Sandeep Chaurasia",
-                    personImage: "/SandeepChaurasia.webp",
-                    personPosition: "Chair",
-                    personOrganization: ""
-                }, {
-                    personName: "Dr. Sandeep Joshi",
-                    personImage: "/SandeepJoshi.jpeg",
-                    personPosition: "CEO AIC",
-                    personOrganization: ""
-                }]), w = m(s.Z.filter(e => "Dr. Neha Chaudhary" === e.personName || "Dr. Santosh Kumar Vishwakarma" === e.personName)), x = m([{
-                    personName: "Dr. Neha Chaudhary",
-                    personImage: "/NehaChaudhary.jpg",
-                    personPosition: "Program Chair",
-                    personOrganization: ""
-                }]), N = m(s.Z.filter(e => "Manya Goel" === e.personName || "Samvrant Samantaray" === e.personName || "Aeshna Kala" === e.personName)), u = m(s.Z.filter(e => "Dr. Juhi Singh" === e.personName || "Mr. Shishir Singh" === e.personName)), j = m([{
-                    personImage: "/preet.jpg",
-                    personName: "Preet"
-                }, {
-                    personImage: "/Dev.jpg",
-                    personName: "Dev Shalinkumar Agrawal"
-                }, {
-                    personImage: "/Ayush.jpg",
-                    personName: "Ayush Poddar"
-                }]), k = m([{
-                    personImage: "/Aneerban.jpg",
-                    personName: "Aneerban Saha"
-                }, {
-                    personImage: "/Lakshay.png",
-                    personName: "Lakshya Goel"
-                }, {
-                    personImage: "/Manya.jpg",
-                    personName: "Manya Goel"
-                }]), f = m([{
-                    personImage: "/naad.png",
-                    personName: "Naad Dantale"
-                }, {
-                    personImage: "/rishi.png",
-                    personName: "Rishi Joshi"
-                }, {
-                    personImage: "/krishna.png",
-                    personName: "Srishti Krishna"
-                }, {
-                    personImage: "/pulkit.png",
-                    personName: "Pulkit Gupta"
-                }, {
-                    personImage: "/roshmeet.png",
-                    personName: "Roshmeet Chakraborty"
-                }, {
-                    personImage: "/image 1.png",
-                    personName: "Abhijeet Anand Jha"
-                }]);
-                console.log(l)
+                
+                } : e));
                 return (0, i.jsx)("div", {
                     className: "bg-primary flex items-center justify-center  relative z-10",
                     children: (0, i.jsxs)("div", {
@@ -411,11 +222,26 @@
                                 onClick: () => n(2024),
                                 children: "2024"
                             })]
+                        }), (0, i.jsx)("h2", {
+                            className: "text-center text-4xl font-bold my-4 text-white bg-primary",
+                            children: "Patrons"
+                        }), (0, i.jsx)("hr", {
+                            className: "mb-4"
+                        }), (0, i.jsx)("div", {
+                            className: "flex flex-col lg:flex-row items-center",
+                            children:[(0, i.jsx)(t.Z, {
+                                name: "Dr. Rupali Bhartiya",
+                                image: "/_next/ruplaibharitya.png",
+                                line1: "",
+                                line2: "",
+                                count: h.length,
+                                icon: "https://www.linkedin.com/in/dr-rupali-bhartiya-5268415/"
+                            },)]
                         }), (0, i.jsxs)("div", {
                             className: "flex flex-col align-middle bg-primary",
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl text-white font-bold my-4",
-                                children: "Developers"
+                                children: "Design & Developer"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsxs)("div", {
@@ -445,64 +271,88 @@
                             })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Co-Patrons"
+                            children: "Chair Person"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col lg:flex-row items-center",
-                            children: (2023 === e ? h : c).map((e, n) => (0, i.jsx)(t.Z, {
-                                name: e.personName,
-                                image: e.personImage,
-                                line1: e.personPosition,
-                                line2: e.personOrganization,
-                                count: h.length,
-                                icon: e.icon
-                            }, n))
+                            children: [(0, i.jsx)(t.Z, {
+                                name: "Anshul Bajpai",
+                                image: "/_next/anshulbajpai.jpg",
+                                line1: "PRESIDENT",
+                                line2: "CORE MEMBER",
+                                icon: "https://www.linkedin.com/in/anshul-bajpai-53b489246/"
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Shantanu Shewale",
+                                image: "/_next/shantanu.jpg",
+                                line1: "GENERAL SECRETARY",
+                                line2: "CORE MEMBER",
+                                icon: "https://www.linkedin.com/in/shantanu-shewale-04b96125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                            })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Chair"
-                        }), (0, i.jsx)("hr", {
-                            className: "mb-4"
-                        }), (0, i.jsx)("div", {
-                            className: "flex flex-col lg:flex-row items-center",
-                            children: (2023 === e ? d : g).map((e, n) => (0, i.jsx)(t.Z, {
-                                name: e.personName,
-                                image: e.personImage,
-                                line1: e.personPosition,
-                                line2: e.personOrganization,
-                                count: g.length,
-                                icon: e.icon
-                            }, n))
-                        }), (0, i.jsx)("h2", {
-                            className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Program Chair"
+                            children: "Creative & Communications Team"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col md:flex-row items-center",
-                            children: (2023 === e ? w : x).map((e, n) => (0, i.jsx)(t.Z, {
-                                name: e.personName,
-                                image: e.personImage,
-                                line1: e.personPosition,
-                                line2: e.personOrganization,
-                                count: x.length,
-                                icon: e.icon
-                            }, n))
+                            children:[(0, i.jsx)(t.Z, {
+                                name: "Suraj Shriwas",
+                                image: "/_next/suraj.jpg",
+                                line1: "MEDIA HEAD",
+                                line2: "CORE MEMBER",
+                                icon: "https://www.linkedin.com/in/suraj-shriwas-056537308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Vaishnavi Upadhyay",
+                                image: "/_next/vaishnavi.jpg",
+                                line1: "CONTENT HEAD",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Prateek Jain",
+                                image: "/_next/prateek.jpg",
+                                line1: "PROMOTIONAL HEAD",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Sarthak Shahane",
+                                image: "/_next/sarthak.jpg",
+                                line1: "GRAPHICS HEAD",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Convener"
+                            children: "executive committee"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
-                            className: "flex flex-wrap justify-center md:justify-around bg-primary ",
-                            children: u.map((e, n) => (0, i.jsx)(t.Z, {
-                                name: e.personName,
-                                image: e.personImage,
-                                line1: e.personPosition,
-                                line2: e.personOrganization,
-                                count: u.length,
-                                icon: e.icon
-                            }, n))
+                            className: "flex flex-col md:flex-row items-center",
+                            children:[(0, i.jsx)(t.Z, {
+                                name: "Yash Yadav",
+                                image: "/_next/yash.jpg",
+                                line1: "BRANCH REPRESENTATIVE",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Krutika Nikhade",
+                                image: "/_next/krutika.jpg",
+                                line1: "PROGRAM EXECUTIVE",
+                                line2: "CORE MEMBER",
+                                icon: "https://www.linkedin.com/in/krutika-nikhade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Rajveer Singh Dharival",
+                                image: "/_next/rajveer.jpg",
+                                line1: "LOGISTIC HEAD",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            }),(0, i.jsx)(t.Z, {
+                                name: "Aayush Sanodiya",
+                                image: "/_next/aayush.jpg",
+                                line1: "TREASURER",
+                                line2: "CORE MEMBER",
+                                icon: ""
+                            })]
                         }), 2023 === e ? (0, i.jsxs)(i.Fragment, {
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
@@ -533,37 +383,35 @@
                         }) : (0, i.jsxs)(i.Fragment, {
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                                children: "MUJ HackX 2.0 Advisories"
+                                children: "Other Team Members"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsx)("div", {
                                 className: "flex flex-col md:flex-row items-center",
-                                children: N.map((e, n) => (0, i.jsx)(t.Z, {
-                                    name: e.personName,
-                                    image: e.personImage,
-                                    line1: e.personPosition,
-                                    line2: e.personOrganization,
-                                    count: N.length,
-                                    icon: e.icon
-                                }, n))
+                                children:[(0, i.jsx)(t.Z, {
+                                    name: "name",
+                                    image: "image",
+                                    line1: "position",
+                                    line2: "Organization",
+                                    icon: "linkdin"
+                                })]
                             }), (0, i.jsx)("h2", {
                                 className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
-                                children: "Student Convener 2024-25"
+                                children: "Volunteer Members"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsx)("div", {
                                 className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center bg-primary",
-                                children: f.map((e, n) => (0, i.jsx)("div", {
+                                children: [(0, i.jsx)("div", {
                                     className: "flex flex-col items-center",
                                     children: (0, i.jsx)(t.Z, {
-                                        name: e.personName,
-                                        image: e.personImage,
+                                        name: "personName",
+                                        image: "personImage",
                                         line1: "Student Convener",
                                         line2: "",
-                                        count: f.length,
-                                        icon: e.icon
+                                        icon: "linkdin"
                                     })
-                                }, n))
+                                })]
                             })]
                         }), (0, i.jsx)(o.Z, {})]
                     })
