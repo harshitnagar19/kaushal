@@ -1,11 +1,11 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
     [38], {
-        2268: function(e, n, a) {
-            (window.__NEXT_P = window.__NEXT_P || []).push(["/team", function() {
+        2268: function (e, n, a) {
+            (window.__NEXT_P = window.__NEXT_P || []).push(["/team", function () {
                 return a(1303)
             }])
         },
-        9581: function(e, n, a) {
+        9581: function (e, n, a) {
             "use strict";
             var i = a(5893),
                 r = a(5675),
@@ -60,10 +60,10 @@
             };
             n.Z = o
         },
-        765: function(e, n, a) {
+        765: function (e, n, a) {
             "use strict";
             a.d(n, {
-                Z: function() {
+                Z: function () {
                     return c
                 }
             });
@@ -87,10 +87,12 @@
             }, {
                 name: "Team",
                 path: "/team.html"
-            }, {
-                name: "Gallery",
-                path: "/gallery.html"
-            }, {
+            },
+            //  {
+            //     name: "Galdchclery",
+            //     path: "/gallery.html"
+            // },
+             {
                 name: "Faqs",
                 path: "/contact.html"
             }];
@@ -183,11 +185,11 @@
                 })
             }
         },
-        7441: function(e, n) {
+        7441: function (e, n) {
             "use strict";
             n.Z = []
         },
-        1303: function(e, n, a) {
+        1303: function (e, n, a) {
             "use strict";
             a.r(n);
             var i = a(5893),
@@ -197,16 +199,16 @@
                 o = a(765);
             let m = () => {
                 let [e, n] = (0, r.useState)(2024), a = {
-                    
+
                 }, m = e => e.map(e => ({
                     ...e,
                     icon: a[e.personName] || ""
-                })), l = m(s.Z.filter(e => "CORE MEMBER" === e.personPosition))[0], p = m(s.Z.filter(e => "MEMBER" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)),c = m(h.map(e => "" === e.personName ? {
+                })), l = m(s.Z.filter(e => "CORE MEMBER" === e.personPosition))[0], p = m(s.Z.filter(e => "MEMBER" === e.personPosition))[0], h = m(s.Z.filter(e => "CO-PATRON" === e.personPosition)), c = m(h.map(e => "" === e.personName ? {
                     ...e,
-        
+
                 } : "" === e.personName ? {
                     ...e,
-                
+
                 } : e));
                 return (0, i.jsx)("div", {
                     className: "bg-primary flex items-center justify-center  relative z-10",
@@ -229,7 +231,7 @@
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col lg:flex-row items-center",
-                            children:[(0, i.jsx)(t.Z, {
+                            children: [(0, i.jsx)(t.Z, {
                                 name: "Dr. Rupali Bhartiya",
                                 image: "/_next/ruplaibharitya.png",
                                 line1: "",
@@ -238,24 +240,24 @@
                                 icon: "https://www.linkedin.com/in/dr-rupali-bhartiya-5268415/"
                             },)]
                         }), (0, i.jsxs)("div", {
-                            className: "flex flex-col align-middle bg-primary",
+                            className: "flex flex-col align-middle  bg-primary",
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl text-white font-bold my-4",
-                                children: "Design & Developer"
+                                children: "Design & Developed By"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsxs)("div", {
-                                className: "flex flex-col md:flex-row justify-center items-center",
+                                className: "flex flex-col md:flex-row justify-center  items-center",
                                 children: [(0, i.jsx)(t.Z, {
-                                    name: "Pratham Pathor",
-                                    image: "/_next/prathamrathor.jpg",
+                                    name: "Pratham Rathore",
+                                    image: "/_next/prathamrathor (2).JPG",
                                     line1: "TECHNICAL HEAD",
                                     line2: "CORE MEMBER",
                                     count: 2,
                                     icon: "https://www.linkedin.com/in/pratham-rathore-32074a250/"
-                                }),(0, i.jsx)(t.Z, {
+                                }), (0, i.jsx)(t.Z, {
                                     name: "Sohel Shaikh",
-                                    image:"/_next/sohelshaikh.png",
+                                    image: "/_next/sohelshaikh.png",
                                     line1: "VICE PRESIDENT",
                                     line2: "CORE MEMBER",
                                     count: 2,
@@ -271,126 +273,132 @@
                             })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Chair Person"
+                            children: "Core Team"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col lg:flex-row items-center",
                             children: [(0, i.jsx)(t.Z, {
                                 name: "Anshul Bajpai",
-                                image: "/_next/anshulbajpai.jpg",
+                                image: "/_next/presodent.jpeg",
                                 line1: "PRESIDENT",
                                 line2: "CORE MEMBER",
                                 icon: "https://www.linkedin.com/in/anshul-bajpai-53b489246/"
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Shantanu Shewale",
-                                image: "/_next/shantanu.jpg",
+                                image: "/_next/general secretary.jpeg",
                                 line1: "GENERAL SECRETARY",
                                 line2: "CORE MEMBER",
                                 icon: "https://www.linkedin.com/in/shantanu-shewale-04b96125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
                             })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "Creative & Communications Team"
+                            children: "Creative & Communication Team"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col md:flex-row items-center",
-                            children:[(0, i.jsx)(t.Z, {
+                            children: [(0, i.jsx)(t.Z, {
                                 name: "Suraj Shriwas",
-                                image: "/_next/suraj.jpg",
+                                image: "/_next/media.JPG",
                                 line1: "MEDIA HEAD",
                                 line2: "CORE MEMBER",
                                 icon: "https://www.linkedin.com/in/suraj-shriwas-056537308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Vaishnavi Upadhyay",
-                                image: "/_next/vaishnavi.jpg",
+                                image: "/_next/content.jpg",
                                 line1: "CONTENT HEAD",
                                 line2: "CORE MEMBER",
                                 icon: ""
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Prateek Jain",
-                                image: "/_next/prateek.jpg",
+                                image: "/_next/promotional incharge.jpeg",
                                 line1: "PROMOTIONAL HEAD",
                                 line2: "CORE MEMBER",
                                 icon: ""
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Sarthak Shahane",
-                                image: "/_next/sarthak.jpg",
+                                image: "/_next/graphics.jpeg",
                                 line1: "GRAPHICS HEAD",
                                 line2: "CORE MEMBER",
                                 icon: ""
                             })]
                         }), (0, i.jsx)("h2", {
                             className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                            children: "executive committee"
+                            children: "Execution Committee"
                         }), (0, i.jsx)("hr", {
                             className: "mb-4"
                         }), (0, i.jsx)("div", {
                             className: "flex flex-col md:flex-row items-center",
-                            children:[(0, i.jsx)(t.Z, {
+                            children: [(0, i.jsx)(t.Z, {
                                 name: "Yash Yadav",
-                                image: "/_next/yash.jpg",
+                                image: "/_next/branch rep.JPG",
                                 line1: "BRANCH REPRESENTATIVE",
                                 line2: "CORE MEMBER",
                                 icon: ""
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Krutika Nikhade",
-                                image: "/_next/krutika.jpg",
+                                image: "/_next/program executive.JPG",
                                 line1: "PROGRAM EXECUTIVE",
                                 line2: "CORE MEMBER",
                                 icon: "https://www.linkedin.com/in/krutika-nikhade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Rajveer Singh Dharival",
-                                image: "/_next/rajveer.jpg",
+                                image: "/_next/logistic.jpg",
                                 line1: "LOGISTIC HEAD",
                                 line2: "CORE MEMBER",
                                 icon: ""
-                            }),(0, i.jsx)(t.Z, {
+                            }), (0, i.jsx)(t.Z, {
                                 name: "Aayush Sanodiya",
-                                image: "/_next/aayush.jpg",
+                                image: "/_next/treasurer.JPG",
                                 line1: "TREASURER",
                                 line2: "CORE MEMBER",
                                 icon: ""
                             })]
-                        }),(0, i.jsxs)(i.Fragment, {
+                        }), 
+                        (0, i.jsxs)(i.Fragment, {
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl font-bold my-4 text-white bg-primary",
-                                children: "Other Team Members"
-                            }), (0, i.jsx)("hr", {
-                                className: "mb-4"
-                            }), (0, i.jsx)("div", {
-                                className: "flex flex-col md:flex-row items-center",
-                                children:[(0, i.jsx)(t.Z, {
-                                    name: "Shreya Tyagi",
-                                    image: "/_next/shreya.png",
-                                    line1: "MEMBER",
-                                    line2: "CSI",
-                                    icon: "https://www.linkedin.com/in/shr7yaa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-                                }),
-                                (0, i.jsx)(t.Z, {
-                                    name: "NITYA PARTANI",
-                                    image: "/_next/nitya.png",
-                                    line1: "MEMBER",
-                                    line2: "CSI",
-                                    icon: "https://www.linkedin.com/in/nitya-partani-a472782b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                })
-                            ]
-                            }), (0, i.jsx)("h2", {
+                                children: "Team Members"
+                            }),
+                            //  (0, i.jsx)("hr", {
+                            //     className: "mb-4"
+                            // }), 
+                            // (0, i.jsx)("div", {
+                                // className: "flex flex-col md:flex-row items-center",
+                                // children: [(0, i.jsx)(t.Z, {
+                                //     // name: "Shreya Tyagi",
+                                //     // image: "/_next/shreya.png",
+                                //     // line1: "MEMBER",
+                                //     // line2: "CSI",
+                                //     // icon: "https://www.linkedin.com/in/shr7yaa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                                // }),
+                                // // (0, i.jsx)(t.Z, {
+                                // //     // name: "NITYA PARTANI",
+                                // //     // image: "/_next/nitya.png",
+                                // //     // line1: "MEMBER",
+                                // //     // line2: "CSI",
+                                // //     // icon: "https://www.linkedin.com/in/nitya-partani-a472782b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                // // })
+                                // ]
+                            // })
+                            , (0, i.jsx)("h2", {
                                 className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
-                                children: "Volunteer Members"
+                                // children: "Volunteer Members"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsx)("div", {
-                                className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center bg-primary",
+                                className: " gap-4 justify-center  bg-primary",
                                 children: [(0, i.jsx)("div", {
-                                    className: "flex flex-col items-center",
+                                    className: "flex flex-col  items-center",
                                     children: (0, i.jsx)(t.Z, {
-                                        name: "personName",
-                                        image: "personImage",
-                                        line1: "Student Convener",
-                                        line2: "",
-                                        icon: "linkdin"
+                                        // name: "personName",
+
+                                        image: "/_next/csimembers (2)@1x_1-1.jpg",
+                                  
+                                        // line1: "Student Convener",
+                                        // line2: "",
+                                        // icon: "linkdin"
                                     })
                                 })]
                             })]
@@ -401,8 +409,8 @@
             n.default = m
         }
     },
-    function(e) {
-        e.O(0, [260, 774, 888, 179], function() {
+    function (e) {
+        e.O(0, [260, 774, 888, 179], function () {
             return e(e.s = 2268)
         }), _N_E = e.O()
     }
