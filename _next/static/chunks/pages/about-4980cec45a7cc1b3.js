@@ -34,10 +34,10 @@
                 path: "/team.html"
             }, {
                 name: "Gallery",
-                path: "/gallery"
+                path: "/gallery.html"
             }, {
                 name: "Faqs",
-                path: "/contact"
+                path: "/contact.html"
             }];
 
             function d() {

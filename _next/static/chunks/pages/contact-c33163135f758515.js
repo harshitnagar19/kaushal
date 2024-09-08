@@ -25,22 +25,19 @@
                 path: "/"
             }, {
                 name: "About",
-                path: "/about"
+                path: "/about.html"
             }, {
                 name: "Timeline",
-                path: "/timeline"
-            }, {
-                name: "Ambassador",
-                path: "/campus"
-            }, {
+                path: "/timeline.html"
+            }, , {
                 name: "Team",
-                path: "/team"
+                path: "/team.html"
             }, {
                 name: "Gallery",
-                path: "/gallery"
+                path: "/gallery.html"
             }, {
                 name: "Faqs",
-                path: "/contact"
+                path: "/contact.html"
             }];
 
             function m() {
@@ -73,8 +70,8 @@
                         }), (0, n.jsx)("div", {
                             children: (0, n.jsx)(o(), {
                                 href: "/",
-                                children: (0, n.jsx)(d(), {
-                                    src: "/Kaushallogo.jpg",
+                                children: (0, n.jsx)("img", {
+                                    src: "Kaushallogo.png",
                                     width: 288,
                                     height: 64,
                                     alt: "",
@@ -93,7 +90,7 @@
                         }), (0, n.jsxs)("div", {
                             className: "flex items-center gap-6 mb-4 footer-list text-2xl",
                             children: [(0, n.jsx)(o(), {
-                                href: "",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, n.jsx)("a", {
                                     target: "_blank",
@@ -381,7 +378,8 @@
                             }), (0, n.jsx)("div", {
                                 className: "lg:pt-16",
                                 children: (0, n.jsx)("iframe", {
-                                    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.8772831810866!2d75.5652343!3d26.8438552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4850e05bee9b%3A0x1b8d67402d4eb863!2sManipal%20University%20Jaipur!5e0!3m2!1sen!2sin!4v1717828681903!5m2!1sen!2sin",
+                                    src: "https:www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58836.52342807909!2d75.85983460000001!3d22.8290276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963039c587a8091%3A0x206d00d7a5e4afb3!2sShri%20Vaishnav%20Vidyapeeth%20Vishwavidyalaya%20(SVVV)!5e0!3m2!1sen!2sin!4v1725792635428!5m2!1sen!2sin",
+                                    
                                     width: "600",
                                     height: "450",
                                     className: "rounded-2xl xl:w-[600px] lg:w-[500px] sm:w-[600px] w-[350px] h-[500px] lg:h-[800px] xl:h-[900px]",

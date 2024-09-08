@@ -34,10 +34,10 @@
                 path: "/team.html"
             }, {
                 name: "Gallery",
-                path: "/gallery"
+                path: "/gallery.html"
             }, {
                 name: "Faqs",
-                path: "/contact"
+                path: "/contact.html"
             }];
 
             function p() {
@@ -70,8 +70,8 @@
                         }), (0, a.jsx)("div", {
                             children: (0, a.jsx)(o(), {
                                 href: "/",
-                                children: (0, a.jsx)(d(), {
-                                    src: "./Kaushallogo.jpg",
+                                children: (0, a.jsx)("img", {
+                                    src: "Kaushallogo.png",
                                     width: 288,
                                     height: 64,
                                     alt: "",
@@ -90,7 +90,7 @@
                         }), (0, a.jsxs)("div", {
                             className: "flex items-center gap-6 mb-4 footer-list text-2xl",
                             children: [(0, a.jsx)(o(), {
-                                href: "",
+                                href: "https://www.instagram.com/csi_svvv/",
                                 legacyBehavior: !0,
                                 children: (0, a.jsx)("a", {
                                     target: "_blank",
@@ -240,7 +240,7 @@
                                 })
                             })]
                         })
-                    })
+                    }) 
                 }), (0, a.jsxs)("div", {
                     className: "  flex justify-center items-center flex-col md:justify-around  md:flex-row gap-10 m-16 ",
                     children: [(0, a.jsx)("div", {

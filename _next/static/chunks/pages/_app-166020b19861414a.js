@@ -1254,7 +1254,7 @@
                   icon: (0, i.jsx)(v, {})
               }, {
                   name: "Gallery",
-                  path: "/gallery",
+                  path: "/gallery.html",
                   icon: (0, i.jsx)(function(t) {
                       return (0, g.w_)({
                           tag: "svg",
@@ -1271,7 +1271,7 @@
                   }, {})
               }, {
                   name: "Faqs",
-                  path: "/contact",
+                  path: "/contact.html",
                   icon: (0, i.jsx)(b.MXt, {})
               }],
               S = () => {
