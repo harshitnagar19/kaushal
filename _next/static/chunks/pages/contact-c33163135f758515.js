@@ -330,7 +330,7 @@
                                         className: "flex flex-col justify-center items-center",
                                         children: [(0, n.jsx)("span", {
                                             className: "text-gray-200 text-lg font-normal leading-7",
-                                            children: "Have questions about the hackathon? Explore our FAQ below!\xa0"
+                                            children: "Have questions about the Event? Explore our FAQ below!\xa0"
                                         }), (0, n.jsx)("span", {
                                             className: "text-gray-200 text-lg font-normal leading-7",
                                             children: "Need further assistance? Don't hesitate to reach out to our team."
@@ -343,22 +343,25 @@
                                         content: "Click on the register now button on the nav menu of the website."
                                     }, {
                                         title: "How many team members do I need ?",
-                                        content: "You can participate individually or in teams of 2 to 4 members."
+                                        content: `You can participate individually . In web design contest there can be team of 2 member.
+                                       And in technical quiz there can be team of 4 member.
+                                        `
                                     }, {
                                         title: "How much are the participation fees?",
-                                        content: "Rs 699 for each participating team, be it 2 or 4 members."
+                                        content: `• 150/- per event (per person). For multiple events, submit separate forms.
+                                                  • 100/- per person for team events (min team size: 2 & max team size : 4).`
                                     }, {
-                                        title: "Will the Hackathon be in person or online ?",
-                                        content: "MUJHackX 2.0 will be conducted in complete offline/in-person mode at Manipal University Jaipur"
+                                        title: "Will the event be in person or online ?",
+                                        content: "Kaushal 6.0 will be conducted in complete offline/in-person mode at Shri Vaishnav Vidyapeeth Vishwavidyalaya "
                                     }, {
-                                        title: "What is the venue for MUJHackX 2.0 ?",
-                                        content: "Manipal University Jaipur, Dahmi Kalan, Bagru P.O, Jaipur Ajmer Road 303007, Rajasthan, India"
+                                        title: "What is the venue for Kaushal 6.0 ?",
+                                        content: "Shri Vaishnav Vidyapeeth Vishwavidyalaya Campus : Indore – Ujjain Road, Indore – 453111 ,"
                                     }, {
-                                        title: "What are the prerequisites to participate in this hackathon ?",
-                                        content: "No prerequisites are required to participate in this hackathon. This event is open to participants of all skill levels."
+                                        title: "What are the prerequisites to participate in this event ?",
+                                        content: "No prerequisites are required to participate in this event. This event is open to participants of all skill levels."
                                     }, {
-                                        title: "Can my friend join our team after we have already submitted the application for review ?",
-                                        content: "Yes, your friend can join the team by submitting an individual application. Once both your friend's individual application and your team's application are accepted, you will be able to add your friend to the team."
+                                        title: "Is there pre Kaushal Activites before the event?",
+                                        content: `Yes ,We will be collaborating with variou cultural clubs of our college for a series of engaging pre-event activities.`
                                     }].map((e, t) => (0, n.jsx)(p.UQ, {
                                         type: "single",
                                         collapsible: !0,
@@ -402,23 +405,16 @@
                                     children: [(0, n.jsxs)("div", {
                                         className: "flex flex-col text-xl",
                                         children: [(0, n.jsx)("div", {
-                                            children: "+91 95699 13103"
+                                            children: "+91 7773067360"
                                         }), (0, n.jsx)("div", {
-                                            children: "Rishi Joshi"
+                                            children: "Anshul Bajpai"
                                         })]
                                     }), (0, n.jsxs)("div", {
                                         className: "flex flex-col text-xl",
                                         children: [(0, n.jsx)("div", {
-                                            children: "+91 82404 73087"
+                                            children: "+91 982748971"
                                         }), (0, n.jsx)("div", {
-                                            children: "Shristi Krishna"
-                                        })]
-                                    }), (0, n.jsxs)("div", {
-                                        className: "flex flex-col text-xl",
-                                        children: [(0, n.jsx)("div", {
-                                            children: "+91 95608 87855"
-                                        }), (0, n.jsx)("div", {
-                                            children: "Pulkit Gupta"
+                                            children: "Pratham Rathore"
                                         })]
                                     })]
                                 })]
@@ -429,7 +425,7 @@
                                     children: [(0, n.jsx)(f.z6F, {}), " Address"]
                                 }), (0, n.jsx)("div", {
                                     className: "flex flex-col px-4 gap-0.5 ",
-                                    children: "Manipal University Jaipur, Jaipur-Ajmer Express Highway, Dehmi Kalan, Near GVK Toll Plaza, Jaipur, Rajasthan 303007"
+                                    children:"Ujjain - Indore Rd, Gram Baroli, Indore, Madhya Pradesh 453111"
                                 })]
                             })]
                         })]

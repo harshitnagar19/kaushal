@@ -353,34 +353,7 @@
                                 line2: "CORE MEMBER",
                                 icon: ""
                             })]
-                        }), 2023 === e ? (0, i.jsxs)(i.Fragment, {
-                            children: [(0, i.jsx)("h2", {
-                                className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
-                                children: "Student Convener 2023-24"
-                            }), (0, i.jsx)("hr", {
-                                className: "mb-4"
-                            }), (0, i.jsx)("div", {
-                                className: "flex flex-col lg:flex-row items-center",
-                                children: j.map((e, n) => (0, i.jsx)(t.Z, {
-                                    name: e.personName,
-                                    image: e.personImage,
-                                    line1: "Student Convener",
-                                    line2: "",
-                                    count: j.length,
-                                    icon: e.icon
-                                }, n))
-                            }), (0, i.jsx)("div", {
-                                className: "flex flex-col lg:flex-row items-center",
-                                children: k.map((e, n) => (0, i.jsx)(t.Z, {
-                                    name: e.personName,
-                                    image: e.personImage,
-                                    line1: "Student Convener",
-                                    line2: "",
-                                    count: k.length,
-                                    icon: e.icon
-                                }, n))
-                            })]
-                        }) : (0, i.jsxs)(i.Fragment, {
+                        }),(0, i.jsxs)(i.Fragment, {
                             children: [(0, i.jsx)("h2", {
                                 className: "text-center text-4xl font-bold my-4 text-white bg-primary",
                                 children: "Other Team Members"
@@ -389,12 +362,20 @@
                             }), (0, i.jsx)("div", {
                                 className: "flex flex-col md:flex-row items-center",
                                 children:[(0, i.jsx)(t.Z, {
-                                    name: "name",
-                                    image: "image",
-                                    line1: "position",
-                                    line2: "Organization",
-                                    icon: "linkdin"
-                                })]
+                                    name: "Shreya Tyagi",
+                                    image: "/_next/shreya.png",
+                                    line1: "MEMBER",
+                                    line2: "CSI",
+                                    icon: "https://www.linkedin.com/in/shr7yaa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                                }),
+                                (0, i.jsx)(t.Z, {
+                                    name: "NITYA PARTANI",
+                                    image: "/_next/nitya.png",
+                                    line1: "MEMBER",
+                                    line2: "CSI",
+                                    icon: "https://www.linkedin.com/in/nitya-partani-a472782b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                })
+                            ]
                             }), (0, i.jsx)("h2", {
                                 className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
                                 children: "Volunteer Members"
