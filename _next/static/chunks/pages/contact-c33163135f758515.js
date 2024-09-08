@@ -71,7 +71,7 @@
                             children: (0, n.jsx)(o(), {
                                 href: "/",
                                 children: (0, n.jsx)("img", {
-                                    src: "Kaushallogo.png",
+                                    src: "kaushallogo.png",
                                     width: 288,
                                     height: 64,
                                     alt: "",
