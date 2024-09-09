@@ -88,10 +88,7 @@
                 name: "Team",
                 path: "/team.html"
             },
-            //  {
-            //     name: "Galdchclery",
-            //     path: "/gallery.html"
-            // },
+           
              {
                 name: "Faqs",
                 path: "/contact.html"
@@ -361,44 +358,17 @@
                                 className: "text-center text-4xl font-bold my-4 text-white bg-primary",
                                 children: "Team Members"
                             }),
-                            //  (0, i.jsx)("hr", {
-                            //     className: "mb-4"
-                            // }), 
-                            // (0, i.jsx)("div", {
-                                // className: "flex flex-col md:flex-row items-center",
-                                // children: [(0, i.jsx)(t.Z, {
-                                //     // name: "Shreya Tyagi",
-                                //     // image: "/_next/shreya.png",
-                                //     // line1: "MEMBER",
-                                //     // line2: "CSI",
-                                //     // icon: "https://www.linkedin.com/in/shr7yaa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-                                // }),
-                                // // (0, i.jsx)(t.Z, {
-                                // //     // name: "NITYA PARTANI",
-                                // //     // image: "/_next/nitya.png",
-                                // //     // line1: "MEMBER",
-                                // //     // line2: "CSI",
-                                // //     // icon: "https://www.linkedin.com/in/nitya-partani-a472782b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                // // })
-                                // ]
-                            // })
+                            
                             , (0, i.jsx)("h2", {
                                 className: "text-center text-2xl md:text-4xl font-bold my-4 text-white bg-primary",
-                                // children: "Volunteer Members"
                             }), (0, i.jsx)("hr", {
                                 className: "mb-4"
                             }), (0, i.jsx)("div", {
                                 className: " gap-4 justify-center  bg-primary",
                                 children: [(0, i.jsx)("div", {
                                     className: "flex flex-col  items-center",
-                                    children: (0, i.jsx)(t.Z, {
-                                        // name: "personName",
-
-                                        image: "/_next/csimembers (2).jpg",
-                                  
-                                        // line1: "Student Convener",
-                                        // line2: "",
-                                        // icon: "linkdin"
+                                    children: (0, i.jsx)("img", {
+                                        src: "/_next/csimembers (2).jpg",
                                     })
                                 })]
                             })]

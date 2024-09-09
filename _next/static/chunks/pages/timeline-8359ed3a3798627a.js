@@ -480,9 +480,6 @@
                 name: "Team",
                 path: "/team.html"
             }, {
-                name: "Gallery",
-                path: "/gallery.html"
-            }, {
                 name: "Faqs",
                 path: "/contact.html"
             }];
