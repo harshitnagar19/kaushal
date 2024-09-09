@@ -586,10 +586,16 @@
                     })]
                 })
             },
-                N = () => (0, s.jsx)("img", {
-                    width: "150",
-                    height: "165",
-                    src: "/kaushallogo.png"
+                N = () => (0, s.jsx)("div", {
+                    children:[(0, s.jsx)("img", {
+                        width: "150",
+                        height: "165",
+                        src: "/kaushallogo.png"
+                    }),(0, s.jsx)("h3", {
+                        // width: "150",
+                        // height: "165",
+                        children: "Tap to see COMPETITIONS"
+                    })]
                 }),
                 y = e => {
                     let {
