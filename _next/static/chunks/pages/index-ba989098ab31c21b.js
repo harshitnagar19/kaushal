@@ -550,10 +550,10 @@
                     title: t,
                     icon: a,
                     children: r
-                } = e, [n, i] = l.useState(!1);
+                } = e, [n, i] = l.useState(1);
                 return (0, s.jsxs)("div", {
-                    onMouseEnter: () => i(!0),
-                    onMouseLeave: () => i(!1),
+                    onMouseEnter: () => i(!1),
+                    onMouseLeave: () => i(!0),
                     className: "border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative",
                     children: [(0, s.jsx)(y, {
                         className: "absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black"
@@ -698,11 +698,11 @@
                             }), (0, s.jsx)("div", {
                                 className: "bg-white rounded-lg flex justify-center items-center px-1",
                                 children: (0, s.jsx)("div", {
-                                    className: "py-4 px-11",
+                                    className: "py-4 pr-11",
                                     style: {
-                                        backgroundImage: 'url("/unstop2.png")',
+                                        backgroundImage: 'url("/_next/powerd.png")',
                                         backgroundRepeat: "no-repeat",
-                                        backgroundSize: "cover",
+                                        backgroundSize: "contain",
                                         backgroundPosition: "center"
                                     }
                                 })
@@ -757,7 +757,6 @@
                         children: (0, s.jsxs)("video", {
                             className: "w-full",
                             style: {
-
                                 height: "500px"
                             },
                             controls: !0,

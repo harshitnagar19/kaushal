@@ -1915,7 +1915,9 @@ p {
 .pr-14 {
     padding-right: 3.5rem
 }
-
+.pr-11{
+    padding-right: 2.75rem;
+}
 .pr-2 {
     padding-right: .5rem
 }
