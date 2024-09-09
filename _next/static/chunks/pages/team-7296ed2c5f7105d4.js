@@ -394,7 +394,7 @@
                                     children: (0, i.jsx)(t.Z, {
                                         // name: "personName",
 
-                                        image: "/_next/csimembers (2)@1x_1-1.jpg",
+                                        image: "/_next/csimembers (2).jpg",
                                   
                                         // line1: "Student Convener",
                                         // line2: "",
